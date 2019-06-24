@@ -4,6 +4,10 @@ This Project builds a sample app with tha Ambassador API gate way. It runs local
 
 ## STEPS TO DEPLOY AMBASSADOR WITH CONTAINER IMAGES
 
+1. Clone this repository, extract and go into the extracted folder.
+2. Run minikube in powershell.
+3. Run the below commands:
+
 ## 1. Deploy Ambassador:
 Deploy ambassador with RBAC/NO-RBAC as per requirements. 
 
@@ -54,3 +58,4 @@ To view it, we'll need to get the name of one of the Ambassador pods:
 And then forwarding local port 8877(here) to one of the pods as:
 
 `$ kubectl port-forward [pod-name] 8877`
+
