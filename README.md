@@ -1,5 +1,5 @@
 # SampleAmbassador
-I wasn't finding a good and easy tutorial for ambassador, extracting from useful resources, here is the tutorial.
+I wasn't finding a good and easy tutorial for ambassador, extracting from useful resources, so here is the tutorial.
 This tutorial builds a sample app with tha Ambassador API gate way. It runs locally on minikube.
 
 
